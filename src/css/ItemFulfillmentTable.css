@@ -1,0 +1,28 @@
+table {
+    border: 2px solid #ffc200;
+    width: auto;
+    height: 200px;
+}
+ 
+th {
+    border-bottom: 1px solid black;
+    color: #0d173a;
+    padding: 0px 10px;
+}
+ 
+td {
+    text-align: center;
+}
+
+.detailBtn{
+    padding: 10px;
+    background-color: #ffc200;
+    border: 2px solid #fff;
+    color: #0d173a;
+    border-radius: 5px;
+}
+
+.detailBtn:hover, .detailBtn:active{
+    background-color: #fff;
+    border: 2px solid #ffc200;
+}

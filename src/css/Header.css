@@ -2,8 +2,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    background-color: cadetblue;
-    color: #fff;
+    background-color: #0d173a;
+    color: #ffc200;
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
@@ -16,6 +16,18 @@ h1 {
 nav {
     display: flex;
     gap: 15px;
+    align-items: center;
+}
+
+nav a{
+    background-color: #ffc200;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fff;
 }
 
 @media (max-width: 768px) {

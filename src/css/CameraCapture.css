@@ -36,6 +36,38 @@ video {
 	justify-content: center; /* Center the buttons */
 }
 
+.button-container .start{
+	padding: 5px;
+    color: #0d173a;
+}
+
+.button-container .capture:disabled{
+    padding: 7px;
+    color: #c0c0c0;
+    background: #cccccc;
+}
+
+.button-container .capture{
+	padding: 7px;
+    color: #0d173a;
+    background: #ffc200;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.button-container .stop:disabled{
+    padding: 5px;
+    color: #c0c0c0;
+    background: #cccccc;
+}
+
+.button-container .stop{
+	padding: 5px;
+	border: 1px solid #0d173a;
+    color: red;
+}
+
+
 .error-message,
 .instruction-text {
 	color: red;

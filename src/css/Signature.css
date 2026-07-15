@@ -25,6 +25,26 @@
     gap: 10px;
 }
 
+.button-container .clear{
+    padding: 7px;
+    border: 1px solid #0d173a;
+    color: red;
+}
+
+.button-container .accept:disabled{
+    padding: 7px;
+    color: #c0c0c0;
+    background: #cccccc;
+}
+
+.button-container .accept{
+    padding: 7px;
+    color: #0d173a;
+    background: #ffc200;
+    font-size: large;
+    border-radius: 5px;
+}
+
 .signature-image-container {
     display: flex;
     justify-content: center;

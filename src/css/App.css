@@ -94,14 +94,14 @@
     font-size: 16px;
     cursor: pointer;
     border: none; /* Remove any default borders */
-    background-color: #007BFF; /* A pleasant blue */
+    background-color: #0d173a;
     color: white; /* White text */
     border-radius: 4px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth hover effect */
 }
 
 .refresh-button:hover {
-    background-color: #0056b3; /* A slightly darker blue for hover */
+    color: #ffc200; 
 }
 
 @media (max-width: 768px) {
@@ -109,4 +109,74 @@
         font-size: 14px;
         padding: 8px 16px; /* Slightly smaller padding for smaller screens */
     }
+}
+
+
+.login-button{
+  align-items: center;
+  background-color: #ffc200;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.login-button:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.login-button:hover:after {
+  transform: translate(0, 0);
+}
+
+.login-button:active {
+  background-color: #ffc200;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .login-button{
+    padding: 0 40px;
+  }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #0d173a;
+    color: #ffc200;
+    text-align: center;
+    margin-top: 20px;
+    height: 4rem;
+    width: 100%;
 }
