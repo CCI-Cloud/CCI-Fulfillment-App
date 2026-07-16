@@ -3,8 +3,8 @@ const express = require("express");
 const path = require("path");
 const app = express();
 
-console.log(`NODE_ENV=${config.NODE_ENV}`);
-console.log(`APP_PATH=${config.APP_PATH}`);
+// console.log(`NODE_ENV=${config.NODE_ENV}`);
+// console.log(`APP_PATH=${config.APP_PATH}`);
 const BUILD_PATH = `${config.APP_PATH}`;
 
 // Serve the React static files
